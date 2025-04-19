@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-color: black;
+    position: relative;
+}
+
+.main .box img {
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    background-position: center center;
+}
+
+div nav {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav :first-child {
+    margin: 1;
+    font-size: 10px;
+}
+
+nav div select {
+    background-color: rgba(23, 23, 23, 0.2);
+    /* background-color: grey; */
+    color: white;
+    padding: 0px 0px 1px 0px;
+    font-size: 7px;
+    border-radius: 2px;
+    color: white;
+}
+
+nav div :nth-child(2) {
+    padding: 3px 8px;
+    font-size: 7px;
+    border-radius: 2px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+.hero {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.hero :first-child {
+    text-align: center;
+    font-weight: 800; 
+    font-size: 30px;
+    font-family: "Segoe UI";
+}
+
+.hero :nth-child(2) {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Segoe UI";
+}
+
+.hero :nth-child(3) {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Segoe UI";
+}
+
+.hero :nth-child(4) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Segoe UI";
+}
+
+.hero :nth-child(5) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 9px;
+    font-family: "Segoe UI";
+}
+
+.main .mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail input {
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.mail button {
+    margin: 10px;
+    padding: 3px 8px;
+    font-size: 7px;
+    border-radius: 2px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+.separation {
+    margin-top: 38px;
+    height: 5px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.mid {
+    background-color: black;
+}
+
+div .trends {
+    margin: 15px;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+
+div .choice {
+    margin: 15px;
+}
+
+div .shades {
+    height: 15px;
+    background: radial-gradient(171% 435% at 50% -323%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+
+/* .cards :hover{
+    margin: auto;
+    width: 13vw;
+} */
+
+.mail input{
+    border-radius: 2px;
+}
+
+.cards img {
+    /* transition: all 1s ease-out; */
+    margin: 7px;
+    width: 12vw;
+    border-radius: 7px;
+}
+
+.cards {
+    display: flex;
+    margin: 10px;
+}
+
+.reasons {
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+
+.more {
+    display: flex;
+}
+
+.slips {
+    background-color: rgba(72, 104, 235, 0.449);
+    height: auto;
+    width: 25vw;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+.slips span {
+    font-size: 10px;
+}
+
+h4 {
+    padding: 2px;
+}
+
+.faqh {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+
+.ques:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+.ques {
+    transition: all 0.25s ease-out;
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    margin-bottom: 4px;
+    color: white;
+    background-color: rgb(37, 36, 36);
+}
+
+.ready {
+    margin-bottom: 10px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.scndmail{
+    display: flex;
+    justify-content: center;
+}
+
+.scndmail input{
+    padding-right: 10px;
+    border-radius: 7px;
+    border: 2px solid rgba(23, 23, 23, 1);
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.scndmail button{
+    margin: 10px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+}
+
+.con{
+    font-size: 9px;
+    height: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 24px 0px 10px 80px;
+}
+
+.last {
+    display: flex;
+}
+
+.last .notes{
+    font-size: 9px;
+    height: 100px;
+    width: 25vw;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer a{
+    color: white;
+    margin: 2px;
+}
+
+.footer-items{
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.long select{
+    border-radius: 5px;
+    margin: 80px;
+    margin-bottom: 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.origin{
+    font-size: 8px;
+    margin: 0px 0px 100px 80px;
+    height: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+rj.mahvash
